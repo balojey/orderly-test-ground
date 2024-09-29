@@ -1047,7 +1047,7 @@ class EmpOrderly(BaseModel):
         self._strategy = strategy
         return self
 
-    def _init_data(
+    def  _init_data(
         self,
         data: pd.DataFrame,
     ):
