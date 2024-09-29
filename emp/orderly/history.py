@@ -45,7 +45,7 @@ class OrderlyHistory:
             datetime.now(timezone.utc).timestamp() - end_days_behind * 86_400
         )
         res = await self._send_request_async(
-            "tv/history",
+            "v1/tv/history",
             params={
                 "symbol": asset.value,
                 "resolution": resolution,

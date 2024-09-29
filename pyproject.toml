@@ -21,6 +21,7 @@ requests = "2.31.0"
 pandas-ta = "^0.3.14b0"
 numpy = "1.26.4"
 setuptools = "^75.1.0"
+matplotlib = "^3.9.2"
 
 
 [tool.poetry.group.dev.dependencies]
